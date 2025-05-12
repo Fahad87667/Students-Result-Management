@@ -60,6 +60,4 @@ The project is divided into two main parts:
 - Frontend runs on `http://localhost:5173` by default
 - Backend API runs on `http://localhost:3000` by default
 
-## License
-
-This project is licensed under the ISC License.
+-------
