@@ -47,48 +47,6 @@ The project is divided into two main parts:
    npm start
    ```
 
-### Manual Setup
-
-#### Frontend Setup
-
-1. Navigate to the frontend directory:
-
-   ```bash
-   cd frontend
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-#### Backend Setup
-
-1. Navigate to the backend directory:
-
-   ```bash
-   cd backend-mysql
-   ```
-
-2. Install dependencies:
-
-   ```bash
-   npm install
-   ```
-
-3. Configure your MySQL database connection in the backend configuration
-
-4. Start the backend server:
-   ```bash
-   npm start
-   ```
-
 ## Features
 
 - Student record management (Create, Read, Update, Delete)
