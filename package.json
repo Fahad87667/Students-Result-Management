@@ -1,0 +1,16 @@
+{
+  "name": "student-crud-app",
+  "version": "1.0.0",
+  "description": "Full-stack student management application",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"cd frontend && npm run dev\" \"cd backend-mysql && npm start\"",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend-mysql && npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

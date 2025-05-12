@@ -18,6 +18,6 @@ StudentRouter.post("/", verifytoken, RegisterStudent);
 
 StudentRouter.delete("/:id", verifytoken, DeleteRecordById);
 
-StudentRouter.put("/", verifytoken, updateStudentRecordById);
+StudentRouter.put("/:id", verifytoken, updateStudentRecordById);
 
 export default StudentRouter;

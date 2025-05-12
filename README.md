@@ -34,7 +34,22 @@ The project is divided into two main parts:
 - MySQL server
 - npm or yarn package manager
 
-### Frontend Setup
+### Quick Start
+
+1. Install all dependencies (frontend, backend, and root):
+
+   ```bash
+   npm run install-all
+   ```
+
+2. Start both frontend and backend servers with a single command:
+   ```bash
+   npm start
+   ```
+
+### Manual Setup
+
+#### Frontend Setup
 
 1. Navigate to the frontend directory:
 
@@ -53,7 +68,7 @@ The project is divided into two main parts:
    npm run dev
    ```
 
-### Backend Setup
+#### Backend Setup
 
 1. Navigate to the backend directory:
 

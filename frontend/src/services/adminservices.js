@@ -13,5 +13,5 @@ export function removetoken() {
 }
 
 export function gettoken() {
-  localStorage.getItem("token");
+  return localStorage.getItem("token");
 }

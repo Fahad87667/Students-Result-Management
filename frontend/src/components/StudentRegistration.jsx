@@ -2,8 +2,11 @@ import { useState } from "react";
 import { Alert, Button, Col, Container, Form, Row } from "react-bootstrap";
 import { postdata } from "../services/studentservices";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 export function StudentRegistration() {
+  const navigate = useNavigate();
+
   const [formData, setFormdata] = useState({
     id: "",
     name: "",
@@ -23,6 +26,7 @@ export function StudentRegistration() {
       console.log(response);
       if (response.status === 200) {
         toast.success("Student Registered Successfully!!!");
+        navigate("/studentslist");
       } else {
         toast.error("Something went wrong !!!");
       }
